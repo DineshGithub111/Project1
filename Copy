@@ -1,1 +1,2 @@
 apt install net-tools
+apt-get install -y  apt-transport-https curl
