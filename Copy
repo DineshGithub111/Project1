@@ -8,3 +8,14 @@ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-ku
 
 https://docs.docker.com/engine/install/ubuntu/
 
+
+CRI - ERROR - TROUBLE SHOOTING 
+https://k21academy.com/docker-kubernetes/container-runtime-is-not-running/
+
+$ rm /etc/containerd/config.toml
+$ systemctl restart containerd
+$ kubeadm init
+
+
+kubeadm join 10.0.2.15:6443 --token qot3ud.vb0o9xcnz0gi90p4 \
+	--discovery-token-ca-cert-hash sha256:bf91f288ea6cc47583cd244b868c471535695812f4d7cdeb86edf4d4c200d2bas
