@@ -1,2 +1,7 @@
 apt install net-tools
 apt-get install -y  apt-transport-https curl
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
+https://docs.docker.com/engine/install/ubuntu/
+
