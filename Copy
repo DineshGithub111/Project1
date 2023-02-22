@@ -24,3 +24,6 @@ kubeadm join 10.0.2.15:6443 --token qot3ud.vb0o9xcnz0gi90p4 \
 	
 	kubeadm join 10.0.2.15:6443 --token qot3ud.vb0o9xcnz0gi90p4 \
 	--discovery-token-ca-cert-hash sha256:bf91f288ea6cc47583cd244b868c471535695812f4d7cdeb86edf4d4c200d2ba
+	
+	- Calico ---**************
+	https://docs.tigera.io/calico/3.25/getting-started/kubernetes/self-managed-onprem/onpremises
