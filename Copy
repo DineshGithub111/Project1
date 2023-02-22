@@ -8,6 +8,8 @@ https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-ku
 
 https://docs.docker.com/engine/install/ubuntu/
 
+#apt-get install -y kubelet kubeadm kubectl kubernetes-cni -y
+
 
 CRI - ERROR - TROUBLE SHOOTING 
 https://k21academy.com/docker-kubernetes/container-runtime-is-not-running/
